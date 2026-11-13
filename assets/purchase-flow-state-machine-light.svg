@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="t d">
+<title id="t">From browsing to watching in five steps</title>
+<desc id="d">Five steps in a row, joined by a line of light that fills from left to right: Browse, Sign in, Pay, Unlock, Watch. Each step lights up and gets a check mark in turn, then the whole row stays lit before starting again.</desc>
+<style>
+.sans{font-family:-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif}
+.mono{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace}
+.static{display:none}
+
+.bm{transform-box:fill-box;transform-origin:left center;animation:x 18.0s cubic-bezier(0.22, 1, 0.36, 1) infinite}
+.lit{animation:x 18.0s ease-out infinite}
+.draw *{stroke-dasharray:1;animation:x 18.0s cubic-bezier(0.22, 1, 0.36, 1) infinite}
+.chk{transform-box:fill-box;transform-origin:center;animation:x 18.0s cubic-bezier(0.22, 1, 0.36, 1) infinite}
+.bm0{animation-name:bm0}@keyframes bm0{0%,12.778%{transform:scaleX(0);opacity:1}18.889%{transform:scaleX(1);opacity:1}83.333%{transform:scaleX(1);opacity:1}91.667%{transform:scaleX(1);opacity:0}100%{transform:scaleX(0);opacity:0}}
+.bm1{animation-name:bm1}@keyframes bm1{0%,26.111%{transform:scaleX(0);opacity:1}32.222%{transform:scaleX(1);opacity:1}83.333%{transform:scaleX(1);opacity:1}91.667%{transform:scaleX(1);opacity:0}100%{transform:scaleX(0);opacity:0}}
+.bm2{animation-name:bm2}@keyframes bm2{0%,39.444%{transform:scaleX(0);opacity:1}45.556%{transform:scaleX(1);opacity:1}83.333%{transform:scaleX(1);opacity:1}91.667%{transform:scaleX(1);opacity:0}100%{transform:scaleX(0);opacity:0}}
+.bm3{animation-name:bm3}@keyframes bm3{0%,52.778%{transform:scaleX(0);opacity:1}58.889%{transform:scaleX(1);opacity:1}83.333%{transform:scaleX(1);opacity:1}91.667%{transform:scaleX(1);opacity:0}100%{transform:scaleX(0);opacity:0}}
+.lit0{animation-name:lt0}@keyframes lt0{0%,5.556%{opacity:0}8.056%{opacity:1}83.333%{opacity:1}91.667%{opacity:0}100%{opacity:0}}
+.dr0 *{animation-name:dw0}@keyframes dw0{0%,5.556%{stroke-dashoffset:1}12.222%{stroke-dashoffset:0}91.667%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+.ck0{animation-name:ck0}@keyframes ck0{0%,11.667%{transform:scale(0)}13.056%{transform:scale(1.25)}14.444%{transform:scale(1)}91.667%{transform:scale(1)}100%{transform:scale(0)}}
+.lit1{animation-name:lt1}@keyframes lt1{0%,18.889%{opacity:0}21.389%{opacity:1}83.333%{opacity:1}91.667%{opacity:0}100%{opacity:0}}
+.dr1 *{animation-name:dw1}@keyframes dw1{0%,18.889%{stroke-dashoffset:1}25.556%{stroke-dashoffset:0}91.667%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+.ck1{animation-name:ck1}@keyframes ck1{0%,25.000%{transform:scale(0)}26.389%{transform:scale(1.25)}27.778%{transform:scale(1)}91.667%{transform:scale(1)}100%{transform:scale(0)}}
+.lit2{animation-name:lt2}@keyframes lt2{0%,32.222%{opacity:0}34.722%{opacity:1}83.333%{opacity:1}91.667%{opacity:0}100%{opacity:0}}
+.dr2 *{animation-name:dw2}@keyframes dw2{0%,32.222%{stroke-dashoffset:1}38.889%{stroke-dashoffset:0}91.667%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+.ck2{animation-name:ck2}@keyframes ck2{0%,38.333%{transform:scale(0)}39.722%{transform:scale(1.25)}41.111%{transform:scale(1)}91.667%{transform:scale(1)}100%{transform:scale(0)}}
+.lit3{animation-name:lt3}@keyframes lt3{0%,45.556%{opacity:0}48.056%{opacity:1}83.333%{opacity:1}91.667%{opacity:0}100%{opacity:0}}
+.dr3 *{animation-name:dw3}@keyframes dw3{0%,45.556%{stroke-dashoffset:1}52.222%{stroke-dashoffset:0}91.667%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+.ck3{animation-name:ck3}@keyframes ck3{0%,51.667%{transform:scale(0)}53.056%{transform:scale(1.25)}54.444%{transform:scale(1)}91.667%{transform:scale(1)}100%{transform:scale(0)}}
+.lit4{animation-name:lt4}@keyframes lt4{0%,58.889%{opacity:0}61.389%{opacity:1}83.333%{opacity:1}91.667%{opacity:0}100%{opacity:0}}
+.dr4 *{animation-name:dw4}@keyframes dw4{0%,58.889%{stroke-dashoffset:1}65.556%{stroke-dashoffset:0}91.667%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+.ck4{animation-name:ck4}@keyframes ck4{0%,65.000%{transform:scale(0)}66.389%{transform:scale(1.25)}67.778%{transform:scale(1)}91.667%{transform:scale(1)}100%{transform:scale(0)}}
+
+@media (prefers-reduced-motion: reduce){
+  *{animation:none !important;transition:none !important}
+  .smil{display:none !important}
+  .static{display:inline !important}
+  
+}
+</style>
+<defs>
+<linearGradient id="spec" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.95"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<filter id="halo" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="6"/></filter>
+<linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0E6569"/><stop offset="0.8" stop-color="#0E6569"/><stop offset="1" stop-color="#1F9197"/></linearGradient>
+</defs>
+<clipPath id="pc"><rect x="0.5" y="0.5" width="1199" height="219" rx="12"/></clipPath>
+<rect x="0.5" y="0.5" width="1199" height="219" rx="12" fill="#F6F7F3"/>
+<g clip-path="url(#pc)"><rect x="180" y="94.5" width="150" height="3" rx="1.5" fill="#CFD6CF"/><rect class="bm bm0" x="180" y="94.5" width="150" height="3" rx="1.5" fill="url(#beam)"/><rect x="410" y="94.5" width="150" height="3" rx="1.5" fill="#CFD6CF"/><rect class="bm bm1" x="410" y="94.5" width="150" height="3" rx="1.5" fill="url(#beam)"/><rect x="640" y="94.5" width="150" height="3" rx="1.5" fill="#CFD6CF"/><rect class="bm bm2" x="640" y="94.5" width="150" height="3" rx="1.5" fill="url(#beam)"/><rect x="870" y="94.5" width="150" height="3" rx="1.5" fill="#CFD6CF"/><rect class="bm bm3" x="870" y="94.5" width="150" height="3" rx="1.5" fill="url(#beam)"/><g>
+<circle cx="140" cy="96" r="36" fill="#FFFFFF" stroke="#CFD6CF"/>
+<g transform="translate(126 82) scale(1.1666666666666667)" fill="none" stroke="#55625F" stroke-width="1.286" stroke-linecap="round" stroke-linejoin="round" class="" ><rect x="2.5" y="4" width="19" height="16" rx="2.5"/><path d="M2.5 9h19M6 6.5h.01M9 6.5h.01"/></g>
+<g class="lit lit0">
+<circle cx="140" cy="96" r="38" fill="#0E6569" opacity="0.35" filter="url(#halo)"/>
+<circle cx="140" cy="96" r="36" fill="#FFFFFF" stroke="#0E6569" stroke-width="1.5"/>
+<path d="M114.5 70.5A36 36 0 0 1 165.5 70.5" fill="none" stroke="url(#spec)" stroke-width="1"/>
+<g class="draw dr0"><g transform="translate(126 82) scale(1.1666666666666667)" fill="none" stroke="#0E6569" stroke-width="1.286" stroke-linecap="round" stroke-linejoin="round" class="" ><rect pathLength="1" x="2.5" y="4" width="19" height="16" rx="2.5"/><path pathLength="1" d="M2.5 9h19M6 6.5h.01M9 6.5h.01"/></g></g>
+<g class="chk ck0"><circle cx="166" cy="70" r="10" fill="#B4730A"/><path d="M161.5 70l3.2 3.2 5.6-6.2" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+</g>
+<text class="sans" x="140" y="164" text-anchor="middle" font-size="17" font-weight="650" fill="#16211F">Browse</text>
+<text class="mono" x="140" y="184" text-anchor="middle" font-size="11" letter-spacing="1.6" fill="#55625F">01</text>
+</g><g>
+<circle cx="370" cy="96" r="36" fill="#FFFFFF" stroke="#CFD6CF"/>
+<g transform="translate(356 82) scale(1.1666666666666667)" fill="none" stroke="#55625F" stroke-width="1.286" stroke-linecap="round" stroke-linejoin="round" class="" ><circle cx="8" cy="12" r="4"/><path d="M12 12h9M17 12v4M20.5 12v3"/></g>
+<g class="lit lit1">
+<circle cx="370" cy="96" r="38" fill="#0E6569" opacity="0.35" filter="url(#halo)"/>
+<circle cx="370" cy="96" r="36" fill="#FFFFFF" stroke="#0E6569" stroke-width="1.5"/>
+<path d="M344.5 70.5A36 36 0 0 1 395.5 70.5" fill="none" stroke="url(#spec)" stroke-width="1"/>
+<g class="draw dr1"><g transform="translate(356 82) scale(1.1666666666666667)" fill="none" stroke="#0E6569" stroke-width="1.286" stroke-linecap="round" stroke-linejoin="round" class="" ><circle pathLength="1" cx="8" cy="12" r="4"/><path pathLength="1" d="M12 12h9M17 12v4M20.5 12v3"/></g></g>
+<g class="chk ck1"><circle cx="396" cy="70" r="10" fill="#B4730A"/><path d="M391.5 70l3.2 3.2 5.6-6.2" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+</g>
+<text class="sans" x="370" y="164" text-anchor="middle" font-size="17" font-weight="650" fill="#16211F">Sign in</text>
+<text class="mono" x="370" y="184" text-anchor="middle" font-size="11" letter-spacing="1.6" fill="#55625F">02</text>
+</g><g>
+<circle cx="600" cy="96" r="36" fill="#FFFFFF" stroke="#CFD6CF"/>
+<g transform="translate(586 82) scale(1.1666666666666667)" fill="none" stroke="#55625F" stroke-width="1.286" stroke-linecap="round" stroke-linejoin="round" class="" ><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="M2.5 10h19M6 15h4"/></g>
+<g class="lit lit2">
+<circle cx="600" cy="96" r="38" fill="#0E6569" opacity="0.35" filter="url(#halo)"/>
+<circle cx="600" cy="96" r="36" fill="#FFFFFF" stroke="#0E6569" stroke-width="1.5"/>
+<path d="M574.5 70.5A36 36 0 0 1 625.5 70.5" fill="none" stroke="url(#spec)" stroke-width="1"/>
+<g class="draw dr2"><g transform="translate(586 82) scale(1.1666666666666667)" fill="none" stroke="#0E6569" stroke-width="1.286" stroke-linecap="round" stroke-linejoin="round" class="" ><rect pathLength="1" x="2.5" y="5" width="19" height="14" rx="2.5"/><path pathLength="1" d="M2.5 10h19M6 15h4"/></g></g>
+<g class="chk ck2"><circle cx="626" cy="70" r="10" fill="#B4730A"/><path d="M621.5 70l3.2 3.2 5.6-6.2" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+</g>
+<text class="sans" x="600" y="164" text-anchor="middle" font-size="17" font-weight="650" fill="#16211F">Pay</text>
+<text class="mono" x="600" y="184" text-anchor="middle" font-size="11" letter-spacing="1.6" fill="#55625F">03</text>
+</g><g>
+<circle cx="830" cy="96" r="36" fill="#FFFFFF" stroke="#CFD6CF"/>
+<g transform="translate(816 82) scale(1.1666666666666667)" fill="none" stroke="#55625F" stroke-width="1.286" stroke-linecap="round" stroke-linejoin="round" class="" ><rect x="4" y="11" width="16" height="10" rx="2.5"/><path d="M8 11V7.5a4 4 0 0 1 7.6-1.7M12 15v2.5"/></g>
+<g class="lit lit3">
+<circle cx="830" cy="96" r="38" fill="#0E6569" opacity="0.35" filter="url(#halo)"/>
+<circle cx="830" cy="96" r="36" fill="#FFFFFF" stroke="#0E6569" stroke-width="1.5"/>
+<path d="M804.5 70.5A36 36 0 0 1 855.5 70.5" fill="none" stroke="url(#spec)" stroke-width="1"/>
+<g class="draw dr3"><g transform="translate(816 82) scale(1.1666666666666667)" fill="none" stroke="#0E6569" stroke-width="1.286" stroke-linecap="round" stroke-linejoin="round" class="" ><rect pathLength="1" x="4" y="11" width="16" height="10" rx="2.5"/><path pathLength="1" d="M8 11V7.5a4 4 0 0 1 7.6-1.7M12 15v2.5"/></g></g>
+<g class="chk ck3"><circle cx="856" cy="70" r="10" fill="#B4730A"/><path d="M851.5 70l3.2 3.2 5.6-6.2" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+</g>
+<text class="sans" x="830" y="164" text-anchor="middle" font-size="17" font-weight="650" fill="#16211F">Unlock</text>
+<text class="mono" x="830" y="184" text-anchor="middle" font-size="11" letter-spacing="1.6" fill="#55625F">04</text>
+</g><g>
+<circle cx="1060" cy="96" r="36" fill="#FFFFFF" stroke="#CFD6CF"/>
+<g transform="translate(1046 82) scale(1.1666666666666667)" fill="none" stroke="#55625F" stroke-width="1.286" stroke-linecap="round" stroke-linejoin="round" class="" ><circle cx="12" cy="12" r="9.5"/><path d="M10 8v8l6.5-4z"/></g>
+<g class="lit lit4">
+<circle cx="1060" cy="96" r="38" fill="#0E6569" opacity="0.35" filter="url(#halo)"/>
+<circle cx="1060" cy="96" r="36" fill="#FFFFFF" stroke="#0E6569" stroke-width="1.5"/>
+<path d="M1034.5 70.5A36 36 0 0 1 1085.5 70.5" fill="none" stroke="url(#spec)" stroke-width="1"/>
+<g class="draw dr4"><g transform="translate(1046 82) scale(1.1666666666666667)" fill="none" stroke="#0E6569" stroke-width="1.286" stroke-linecap="round" stroke-linejoin="round" class="" ><circle pathLength="1" cx="12" cy="12" r="9.5"/><path pathLength="1" d="M10 8v8l6.5-4z"/></g></g>
+<g class="chk ck4"><circle cx="1086" cy="70" r="10" fill="#B4730A"/><path d="M1081.5 70l3.2 3.2 5.6-6.2" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+</g>
+<text class="sans" x="1060" y="164" text-anchor="middle" font-size="17" font-weight="650" fill="#16211F">Watch</text>
+<text class="mono" x="1060" y="184" text-anchor="middle" font-size="11" letter-spacing="1.6" fill="#55625F">05</text>
+</g></g>
+<rect x="0.5" y="0.5" width="1199" height="219" rx="12" fill="none" stroke="#CFD6CF"/>
+<rect x="14" y="0.5" width="1172" height="1" fill="url(#spec)"/>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="70" viewBox="0 0 1200 70" role="img" aria-labelledby="t d">
+<title id="t">What Soma18 offers</title>
+<desc id="d">Lines that fade in turn: An 18-minute daily mind-body practice / Four brain and eight body exercises / Free book  ·  Video series  ·  Secure member login / Built and maintained by one developer</desc>
+<style>
+.sans{font-family:-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif}
+.mono{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace}
+.static{display:none}
+
+.ln{opacity:0;transform-box:fill-box;transform-origin:center;animation:tk 12s linear infinite}
+.ln0{opacity:1}
+.ln0{animation-delay:0s}.ln1{animation-delay:3s}.ln2{animation-delay:6s}.ln3{animation-delay:9s}
+@keyframes tk{0%{opacity:0;transform:translateY(8px)}3.750%{opacity:1;transform:translateY(0)}21.250%{opacity:1;transform:translateY(0)}25.000%{opacity:0;transform:translateY(-8px)}100%{opacity:0;transform:translateY(-8px)}}
+.ln{animation-timing-function:cubic-bezier(0.22, 1, 0.36, 1)}
+.fil{transform-box:fill-box;transform-origin:left center;animation:fil 3s linear infinite}
+@keyframes fil{0%{transform:scaleX(0);opacity:1}92%{transform:scaleX(1);opacity:1}100%{transform:scaleX(1);opacity:0}}
+
+@media (prefers-reduced-motion: reduce){
+  *{animation:none !important;transition:none !important}
+  .smil{display:none !important}
+  .static{display:inline !important}
+  .ln{opacity:0}.ln0{opacity:1}
+}
+</style>
+<defs>
+<linearGradient id="spec" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.34"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+
+</defs>
+<text class="sans ln ln0" x="600.0" y="39.0" text-anchor="middle" font-size="24" font-weight="600" fill="#E8EAE5">An 18-minute daily mind-body practice</text>
+<text class="sans ln ln1" x="600.0" y="39.0" text-anchor="middle" font-size="24" font-weight="600" fill="#E8EAE5">Four brain and eight body exercises</text>
+<text class="sans ln ln2" x="600.0" y="39.0" text-anchor="middle" font-size="24" font-weight="600" fill="#E8EAE5">Free book  ·  Video series  ·  Secure member login</text>
+<text class="sans ln ln3" x="600.0" y="39.0" text-anchor="middle" font-size="24" font-weight="600" fill="#E8EAE5">Built and maintained by one developer</text>
+<rect x="450.0" y="58" width="300" height="1" fill="#2A3742"/><rect class="fil" x="450.0" y="57.5" width="300" height="2" rx="1" fill="#5FC2C6"/>
+</svg>
